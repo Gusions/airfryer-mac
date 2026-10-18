@@ -1,0 +1,10 @@
+# Build outputs
+build/
+dist/
+# Local Home Assistant data: database, logs and ACCESS TOKENS. Never commit.
+homeassistant/config/
+# Local environments and macOS noise
+.venv*/
+.DS_Store
+__pycache__/
+*.pyc

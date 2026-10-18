@@ -1,0 +1,15 @@
+# Local Home Assistant for the Airfryer Mac app.
+# Start:  docker compose up -d     UI: http://localhost:8123
+# On macOS, network auto-discovery (mDNS) does not work inside Docker:
+# it is not needed for cloud-only air fryers (firmware 4.0.0), the HomeID login goes through the internet.
+services:
+  homeassistant:
+    image: ghcr.io/home-assistant/home-assistant:stable
+    container_name: homeassistant-airfryer
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8123:8123"   # reachable only from this Mac
+    volumes:
+      - ./config:/config
+    environment:
+      - TZ=${TZ:-UTC}

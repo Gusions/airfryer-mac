@@ -1,0 +1,523 @@
+[
+ {
+  "entity_id": "binary_sensor.airfryer_5000_series_l_cloud_cassetto",
+  "state": "off",
+  "attributes": {
+   "device_class": "door",
+   "icon": "mdi:tray",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Cassetto"
+  },
+  "last_changed": "2026-10-17T23:38:07.484774+00:00",
+  "last_reported": "2026-10-17T23:41:19.218601+00:00",
+  "last_updated": "2026-10-17T23:38:07.484774+00:00",
+  "context": {
+   "id": "01M563NP7WC0PTDS1T6AHJQMZT",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "binary_sensor.airfryer_5000_series_l_cloud_unita_fahrenheit",
+  "state": "off",
+  "attributes": {
+   "icon": "mdi:temperature-fahrenheit",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Unità Fahrenheit"
+  },
+  "last_changed": "2026-10-17T23:38:07.489626+00:00",
+  "last_reported": "2026-10-17T23:41:19.218833+00:00",
+  "last_updated": "2026-10-17T23:38:07.489626+00:00",
+  "context": {
+   "id": "01M563NP818S08HN9C8ZSZ6XNH",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "binary_sensor.airfryer_5000_series_l_cloud_aggiornamento_firmware_disponibile",
+  "state": "off",
+  "attributes": {
+   "device_class": "update",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Aggiornamento firmware disponibile"
+  },
+  "last_changed": "2026-10-17T23:38:07.489845+00:00",
+  "last_reported": "2026-10-17T23:41:19.218986+00:00",
+  "last_updated": "2026-10-17T23:38:07.489845+00:00",
+  "context": {
+   "id": "01M563NP81ANEB26PT7NHTZT7C",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "button.airfryer_5000_series_l_cloud_avvia_cottura",
+  "state": "unknown",
+  "attributes": {
+   "icon": "mdi:play",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Avvia cottura"
+  },
+  "last_changed": "2026-10-17T23:38:07.490163+00:00",
+  "last_reported": "2026-10-17T23:41:19.219289+00:00",
+  "last_updated": "2026-10-17T23:38:07.490163+00:00",
+  "context": {
+   "id": "01M563NP826C6D1JZ1TFS2F4HH",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "button.airfryer_5000_series_l_cloud_pausa",
+  "state": "unknown",
+  "attributes": {
+   "icon": "mdi:pause",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Pausa"
+  },
+  "last_changed": "2026-10-17T23:38:07.490684+00:00",
+  "last_reported": "2026-10-17T23:41:19.219413+00:00",
+  "last_updated": "2026-10-17T23:38:07.490684+00:00",
+  "context": {
+   "id": "01M563NP829X7213PQC69HZG2J",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "button.airfryer_5000_series_l_cloud_stop",
+  "state": "unknown",
+  "attributes": {
+   "icon": "mdi:stop",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Stop"
+  },
+  "last_changed": "2026-10-17T23:38:07.490809+00:00",
+  "last_reported": "2026-10-17T23:41:19.219581+00:00",
+  "last_updated": "2026-10-17T23:38:07.490809+00:00",
+  "context": {
+   "id": "01M563NP82SBGBQPDP44ETG10D",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "button.airfryer_5000_series_l_cloud_mantieni_caldo",
+  "state": "unknown",
+  "attributes": {
+   "icon": "mdi:pot-steam",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Mantieni caldo"
+  },
+  "last_changed": "2026-10-17T23:38:07.490937+00:00",
+  "last_reported": "2026-10-17T23:41:19.219675+00:00",
+  "last_updated": "2026-10-17T23:38:07.490937+00:00",
+  "context": {
+   "id": "01M563NP829SJSYGYEYFC2FZQM",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "button.airfryer_5000_series_l_cloud_aggiorna_ricette",
+  "state": "unknown",
+  "attributes": {
+   "icon": "mdi:book-refresh",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Aggiorna ricette"
+  },
+  "last_changed": "2026-10-17T23:38:07.491051+00:00",
+  "last_reported": "2026-10-17T23:41:19.219805+00:00",
+  "last_updated": "2026-10-17T23:38:07.491051+00:00",
+  "context": {
+   "id": "01M563NP83KE758GYFJPE3PWXR",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "number.airfryer_5000_series_l_cloud_imposta_temperatura",
+  "state": "0.0",
+  "attributes": {
+   "min": 40,
+   "max": 200,
+   "step": 5,
+   "mode": "slider",
+   "unit_of_measurement": "°C",
+   "icon": "mdi:thermometer",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Imposta temperatura"
+  },
+  "last_changed": "2026-10-17T23:38:07.491379+00:00",
+  "last_reported": "2026-10-17T23:41:19.221321+00:00",
+  "last_updated": "2026-10-17T23:38:07.491379+00:00",
+  "context": {
+   "id": "01M563NP83REW6YY122AZXX7VT",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "number.airfryer_5000_series_l_cloud_imposta_tempo_di_cottura",
+  "state": "0",
+  "attributes": {
+   "min": 1,
+   "max": 60,
+   "step": 1,
+   "mode": "box",
+   "unit_of_measurement": "min",
+   "icon": "mdi:timer",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Imposta tempo di cottura"
+  },
+  "last_changed": "2026-10-17T23:38:07.491525+00:00",
+  "last_reported": "2026-10-17T23:41:19.221591+00:00",
+  "last_updated": "2026-10-17T23:38:07.491525+00:00",
+  "context": {
+   "id": "01M563NP83QFCYT29QKW2DMJAQ",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "number.airfryer_5000_series_l_cloud_durata_mantieni_caldo",
+  "state": "60",
+  "attributes": {
+   "min": 1,
+   "max": 180,
+   "step": 1,
+   "mode": "box",
+   "unit_of_measurement": "min",
+   "icon": "mdi:timer",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Durata mantieni caldo"
+  },
+  "last_changed": "2026-10-17T23:38:07.491668+00:00",
+  "last_reported": "2026-10-17T23:41:19.222179+00:00",
+  "last_updated": "2026-10-17T23:38:07.491668+00:00",
+  "context": {
+   "id": "01M563NP8362KYG2QN1TJJX346",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "number.airfryer_5000_series_l_cloud_temperatura_mantieni_caldo",
+  "state": "65.0",
+  "attributes": {
+   "min": 40,
+   "max": 100,
+   "step": 5,
+   "mode": "slider",
+   "unit_of_measurement": "°C",
+   "icon": "mdi:thermometer",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Temperatura mantieni caldo"
+  },
+  "last_changed": "2026-10-17T23:38:07.491812+00:00",
+  "last_reported": "2026-10-17T23:41:19.222592+00:00",
+  "last_updated": "2026-10-17T23:38:07.491812+00:00",
+  "context": {
+   "id": "01M563NP83F8H29RZEWB1SD839",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "select.airfryer_5000_series_l_cloud_metodo_di_cottura",
+  "state": "manual",
+  "attributes": {
+   "options": [
+    "manual",
+    "frozen_snacks",
+    "fresh_fries",
+    "chicken",
+    "fish",
+    "muffins_cake",
+    "meat_chops",
+    "vegetables",
+    "keep_warm"
+   ],
+   "icon": "mdi:chef-hat",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Metodo di cottura"
+  },
+  "last_changed": "2026-10-17T23:38:07.492078+00:00",
+  "last_reported": "2026-10-17T23:41:19.223403+00:00",
+  "last_updated": "2026-10-17T23:38:07.492078+00:00",
+  "context": {
+   "id": "01M563NP84F1W93N13XQ96ZJK6",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_stato_cottura",
+  "state": "standby",
+  "attributes": {
+   "icon": "mdi:stove",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Stato cottura"
+  },
+  "last_changed": "2026-10-17T23:38:07.492399+00:00",
+  "last_reported": "2026-10-17T23:41:19.225144+00:00",
+  "last_updated": "2026-10-17T23:38:07.492399+00:00",
+  "context": {
+   "id": "01M563NP847PYP0VYTZJCGEH2S",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_temperatura_impostata",
+  "state": "0",
+  "attributes": {
+   "state_class": "measurement",
+   "unit_of_measurement": "°C",
+   "device_class": "temperature",
+   "icon": "mdi:thermometer",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Temperatura impostata"
+  },
+  "last_changed": "2026-10-17T23:38:07.492617+00:00",
+  "last_reported": "2026-10-17T23:41:19.225609+00:00",
+  "last_updated": "2026-10-17T23:38:07.492617+00:00",
+  "context": {
+   "id": "01M563NP84DX8Z09XT48WMNFA3",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_tempo_di_cottura_totale",
+  "state": "0",
+  "attributes": {
+   "state_class": "measurement",
+   "unit_of_measurement": "min",
+   "device_class": "duration",
+   "icon": "mdi:timer",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Tempo di cottura totale"
+  },
+  "last_changed": "2026-10-17T23:38:07.492800+00:00",
+  "last_reported": "2026-10-17T23:41:19.225998+00:00",
+  "last_updated": "2026-10-17T23:38:07.492800+00:00",
+  "context": {
+   "id": "01M563NP848947R2Y1KR2WDWXM",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_tempo_rimanente",
+  "state": "0",
+  "attributes": {
+   "state_class": "measurement",
+   "unit_of_measurement": "s",
+   "device_class": "duration",
+   "icon": "mdi:timer-outline",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Tempo rimanente"
+  },
+  "last_changed": "2026-10-17T23:38:07.492964+00:00",
+  "last_reported": "2026-10-17T23:41:19.226278+00:00",
+  "last_updated": "2026-10-17T23:38:07.492964+00:00",
+  "context": {
+   "id": "01M563NP84CQPW6PAXDWD5V783",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_programma",
+  "state": "0",
+  "attributes": {
+   "icon": "mdi:format-list-numbered",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Programma"
+  },
+  "last_changed": "2026-10-17T23:38:07.493092+00:00",
+  "last_reported": "2026-10-17T23:41:19.226445+00:00",
+  "last_updated": "2026-10-17T23:38:07.493092+00:00",
+  "context": {
+   "id": "01M563NP85STD2TZPJ9PSAFD5Z",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_codice_errore",
+  "state": "0",
+  "attributes": {
+   "icon": "mdi:alert-circle",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Codice errore"
+  },
+  "last_changed": "2026-10-17T23:38:07.493214+00:00",
+  "last_reported": "2026-10-17T23:41:19.226523+00:00",
+  "last_updated": "2026-10-17T23:38:07.493214+00:00",
+  "context": {
+   "id": "01M563NP856PDSH76SAPXTE6T1",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_id_ricetta",
+  "state": "",
+  "attributes": {
+   "icon": "mdi:book-open-variant",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) ID ricetta"
+  },
+  "last_changed": "2026-10-17T23:38:07.493328+00:00",
+  "last_reported": "2026-10-17T23:41:19.226653+00:00",
+  "last_updated": "2026-10-17T23:38:07.493328+00:00",
+  "context": {
+   "id": "01M563NP85BX2MZD4GHGXS6MXN",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_id_passaggio",
+  "state": "",
+  "attributes": {
+   "icon": "mdi:format-list-numbered",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) ID passaggio"
+  },
+  "last_changed": "2026-10-17T23:38:07.493440+00:00",
+  "last_reported": "2026-10-17T23:41:19.226856+00:00",
+  "last_updated": "2026-10-17T23:38:07.493440+00:00",
+  "context": {
+   "id": "01M563NP85405T2GBQ0V52FAGQ",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_versione_firmware_ncp",
+  "state": "0.6.8",
+  "attributes": {
+   "icon": "mdi:chip",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Versione firmware NCP"
+  },
+  "last_changed": "2026-10-17T23:38:07.493559+00:00",
+  "last_reported": "2026-10-17T23:41:19.227157+00:00",
+  "last_updated": "2026-10-17T23:38:07.493559+00:00",
+  "context": {
+   "id": "01M563NP85F03GQ0EAV72HWNCF",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_versione_firmware_host",
+  "state": "4.0.0",
+  "attributes": {
+   "icon": "mdi:memory",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Versione firmware host"
+  },
+  "last_changed": "2026-10-17T23:38:07.493672+00:00",
+  "last_reported": "2026-10-17T23:41:19.227266+00:00",
+  "last_updated": "2026-10-17T23:38:07.493672+00:00",
+  "context": {
+   "id": "01M563NP85YA5DTN2A04KXV33M",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_errore_prodotto",
+  "state": "0",
+  "attributes": {
+   "icon": "mdi:alert-circle-outline",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Errore prodotto"
+  },
+  "last_changed": "2026-10-17T23:38:07.493782+00:00",
+  "last_reported": "2026-10-17T23:41:19.227326+00:00",
+  "last_updated": "2026-10-17T23:38:07.493782+00:00",
+  "context": {
+   "id": "01M563NP85NQW83RW3S39HPXK0",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_stato_aggiornamento_firmware",
+  "state": "no_download",
+  "attributes": {
+   "icon": "mdi:cloud-download-outline",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Stato aggiornamento firmware"
+  },
+  "last_changed": "2026-10-17T23:38:07.493900+00:00",
+  "last_reported": "2026-10-17T23:41:19.227524+00:00",
+  "last_updated": "2026-10-17T23:38:07.493900+00:00",
+  "context": {
+   "id": "01M563NP853YZMSY0AFVK60RKG",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_nome_del_dispositivo",
+  "state": "",
+  "attributes": {
+   "icon": "mdi:tag-outline",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Nome del dispositivo"
+  },
+  "last_changed": "2026-10-17T23:38:07.494014+00:00",
+  "last_reported": "2026-10-17T23:41:19.227554+00:00",
+  "last_updated": "2026-10-17T23:38:07.494014+00:00",
+  "context": {
+   "id": "01M563NP86T6GFW111AD65BVKF",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_numero_di_serie",
+  "state": "",
+  "attributes": {
+   "icon": "mdi:barcode",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Numero di serie"
+  },
+  "last_changed": "2026-10-17T23:38:07.494125+00:00",
+  "last_reported": "2026-10-17T23:41:19.227644+00:00",
+  "last_updated": "2026-10-17T23:38:07.494125+00:00",
+  "context": {
+   "id": "01M563NP86PPF7G427XFJ71MN8",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "sensor.airfryer_5000_series_l_cloud_numero_di_modello",
+  "state": "HD9255",
+  "attributes": {
+   "icon": "mdi:identifier",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Numero di modello"
+  },
+  "last_changed": "2026-10-17T23:38:07.494237+00:00",
+  "last_reported": "2026-10-17T23:41:19.227703+00:00",
+  "last_updated": "2026-10-17T23:38:07.494237+00:00",
+  "context": {
+   "id": "01M563NP8656ECZJZTZRBS0E9M",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "switch.airfryer_5000_series_l_cloud_alimentazione",
+  "state": "off",
+  "attributes": {
+   "icon": "mdi:power",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Alimentazione"
+  },
+  "last_changed": "2026-10-17T23:38:07.494437+00:00",
+  "last_reported": "2026-10-17T23:41:19.228067+00:00",
+  "last_updated": "2026-10-17T23:38:07.494437+00:00",
+  "context": {
+   "id": "01M563NP864V96A89AHJ9CH18V",
+   "parent_id": null,
+   "user_id": null
+  }
+ },
+ {
+  "entity_id": "switch.airfryer_5000_series_l_cloud_preriscaldamento",
+  "state": "off",
+  "attributes": {
+   "icon": "mdi:fire",
+   "friendly_name": "Airfryer 5000 Series L (Cloud) Preriscaldamento"
+  },
+  "last_changed": "2026-10-17T23:38:07.494557+00:00",
+  "last_reported": "2026-10-17T23:41:19.228401+00:00",
+  "last_updated": "2026-10-17T23:38:07.494557+00:00",
+  "context": {
+   "id": "01M563NP86KRASNYEPPW59EE94",
+   "parent_id": null,
+   "user_id": null
+  }
+ }
+]

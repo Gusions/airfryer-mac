@@ -1,0 +1,33 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Airfryer Mac contributors. See the LICENSE file.
+# Strings added after the first version: two per language, in the same order as EXTRA_KEYS in keys.py.
+EXTRA = {
+    "it": ["Scegli immagine intestazione…", "Usa immagine predefinita"],
+    "es": ["Elegir imagen de cabecera…", "Usar imagen predeterminada"],
+    "fr": ["Choisir l'image d'en-tête…", "Utiliser l'image par défaut"],
+    "de": ["Kopfzeilenbild wählen …", "Standardbild verwenden"],
+    "pt-BR": ["Escolher imagem do cabeçalho…", "Usar imagem padrão"],
+    "nl": ["Kopafbeelding kiezen…", "Standaardafbeelding gebruiken"],
+    "sv": ["Välj rubrikbild …", "Använd standardbild"],
+    "da": ["Vælg overskriftsbillede …", "Brug standardbillede"],
+    "nb": ["Velg toppbilde …", "Bruk standardbilde"],
+    "fi": ["Valitse otsikkokuva…", "Käytä oletuskuvaa"],
+    "pl": ["Wybierz obraz nagłówka…", "Użyj obrazu domyślnego"],
+    "cs": ["Vybrat obrázek záhlaví…", "Použít výchozí obrázek"],
+    "hu": ["Fejléckép kiválasztása…", "Alapértelmezett kép használata"],
+    "ro": ["Alege imaginea din antet…", "Folosește imaginea implicită"],
+    "tr": ["Başlık görselini seç…", "Varsayılan görseli kullan"],
+    "ru": ["Выбрать изображение заголовка…", "Использовать изображение по умолчанию"],
+    "uk": ["Вибрати зображення заголовка…", "Використати зображення за замовчуванням"],
+    "el": ["Επιλογή εικόνας κεφαλίδας…", "Χρήση προεπιλεγμένης εικόνας"],
+    "he": ["בחירת תמונת כותרת…", "שימוש בתמונת ברירת המחדל"],
+    "ar": ["اختيار صورة الترويسة…", "استخدام الصورة الافتراضية"],
+    "hi": ["हेडर की छवि चुनें…", "डिफ़ॉल्ट छवि उपयोग करें"],
+    "id": ["Pilih gambar header…", "Gunakan gambar bawaan"],
+    "vi": ["Chọn ảnh đầu trang…", "Dùng ảnh mặc định"],
+    "th": ["เลือกรูปส่วนหัว…", "ใช้รูปเริ่มต้น"],
+    "ja": ["ヘッダー画像を選択…", "デフォルトの画像を使用"],
+    "ko": ["헤더 이미지 선택…", "기본 이미지 사용"],
+    "zh-Hans": ["选择标题图片…", "使用默认图片"],
+    "zh-Hant": ["選擇標題圖片…", "使用預設圖片"],
+}
