@@ -21,7 +21,10 @@ struct Entity: Decodable, Identifiable, Equatable {
         let max: Double?
         let step: Double?
     }
-    var available: Bool { !["unknown", "unavailable"].contains(state) }
+    /// Buttons report "unknown" until pressed, which is normal: only "unavailable" means the device is unreachable.
+    var available: Bool {
+        state != "unavailable" && (state != "unknown" || entity_id.hasPrefix("button."))
+    }
     var label: String { friendlyName + " [" + entity_id + "]" }
     var friendlyName: String { attributes.friendly_name ?? entity_id }
 }

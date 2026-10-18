@@ -371,7 +371,7 @@ enum MenuBarIcon {
 
 @main struct AirfryerMacApp: App {
     @StateObject private var model = Controller.shared
-    init() { Controller.shared.start() }
+    init() { if Demo.isRequested { Demo.run() } else { Controller.shared.start() } }
     var body: some Scene {
         // Regular window: useful when the menu bar is full and the notch hides the icon.
         Window("Airfryer Mac", id: "main") {

@@ -8,6 +8,11 @@ A small native macOS app (menu bar + window) to control a **Philips Airfryer 500
 
 [Italiano](README.it.md)
 
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshot-en-dark.png">
+  <img src="docs/screenshot-en-light.png" alt="Airfryer Mac showing a cooking session" width="380">
+</picture></p>
+
 ## How it works
 
 The app does not talk to the air fryer directly. It uses [Home Assistant](https://www.home-assistant.io/) and the community integration [Philips HomeID](https://github.com/renaudallard/homeassistant_philips_homeid):
@@ -84,6 +89,7 @@ Keys are the English strings in the code; translations live in `Tools/l10n/lang_
 - Verified on that unit: connection, automatic entity matching and power on/off. Set values, start, pause and stop are implemented through the integration's entities and covered by tests against a fake server; confirm them on your appliance before relying on them.
 - Success means Home Assistant received the command, not that the appliance executed it: always check the appliance.
 - Not notarized; no automatic updates.
+- Screenshots are generated with sample data: `Airfryer Mac --screenshot <folder> <suffix>`.
 
 ## License
 

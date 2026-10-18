@@ -18,7 +18,7 @@ mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
 echo "Compiling Airfryer Mac…"
 LOG="$(mktemp)"
 if ! xcrun swiftc -swift-version 5 -parse-as-library -O -target arm64-apple-macosx14.0 \
-  Sources/Core.swift Sources/App.swift -o "$APP/Contents/MacOS/AirfryerMac" 2>"$LOG"; then
+  Sources/Core.swift Sources/App.swift Sources/Demo.swift -o "$APP/Contents/MacOS/AirfryerMac" 2>"$LOG"; then
   if grep -q "this SDK is not supported by the compiler\|redefinition of module 'SwiftBridging'" "$LOG"; then
     echo "The Command Line Tools are out of date for this macOS."
     echo "Open System Settings > General > Software Update and install \"Command Line Tools for Xcode\"."

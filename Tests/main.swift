@@ -80,6 +80,9 @@ func run() async {
     check(rm["status"] == "sensor.airfryer_5000_series_l_cloud_stato_cottura", "real: status = cooking status, not firmware")
     check(rm["time"] == "number.airfryer_5000_series_l_cloud_imposta_tempo_di_cottura", "real: duration")
     check(rm["temp"] == "number.airfryer_5000_series_l_cloud_imposta_temperatura", "real: temperature")
+    check(real.filter { $0.entity_id.hasPrefix("button.") }.allSatisfy { $0.available }, "real: buttons in state unknown are usable")
+    check(!Entity(entity_id: "sensor.x", state: "unknown", attributes: .init(friendly_name: nil, unit_of_measurement: nil, min: nil, max: nil, step: nil)).available, "sensor in state unknown is unavailable")
+    check(!Entity(entity_id: "button.x", state: "unavailable", attributes: .init(friendly_name: nil, unit_of_measurement: nil, min: nil, max: nil, step: nil)).available, "unavailable button is not usable")
     check(rm["power"] == "switch.airfryer_5000_series_l_cloud_alimentazione", "real: power, not preheating")
 
     let session = URLSession(configuration: .ephemeral, delegate: NoRedirect(), delegateQueue: nil)

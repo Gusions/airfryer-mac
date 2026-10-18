@@ -8,6 +8,11 @@ Una piccola app nativa per macOS (barra dei menu + finestra) per controllare dal
 
 [English](README.md)
 
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/screenshot-it-dark.png">
+  <img src="docs/screenshot-it-light.png" alt="Airfryer Mac durante una cottura" width="380">
+</picture></p>
+
 ## Come funziona
 
 L'app non parla direttamente con la friggitrice. Usa [Home Assistant](https://www.home-assistant.io/) e l'integrazione della comunità [Philips HomeID](https://github.com/renaudallard/homeassistant_philips_homeid):
@@ -82,6 +87,7 @@ Le chiavi sono le frasi inglesi del codice; le traduzioni stanno in `Tools/l10n/
 - Verificati su quell'apparecchio: collegamento, associazione automatica delle entità e accensione/spegnimento. Impostazione dei valori, avvio, pausa e arresto sono implementati tramite le entità dell'integrazione e coperti da test su un server finto; verificali sulla tua friggitrice prima di farci affidamento.
 - "Successo" significa che Home Assistant ha ricevuto il comando, non che l'apparecchio l'ha eseguito: controlla sempre la friggitrice.
 - Non notarizzata; nessun aggiornamento automatico.
+- Gli screenshot sono generati con dati di esempio: `Airfryer Mac --screenshot <cartella> <suffisso>`.
 
 ## Licenza
 
